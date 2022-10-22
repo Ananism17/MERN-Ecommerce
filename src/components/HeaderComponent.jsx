@@ -81,7 +81,7 @@ const HeaderComponent = () => {
             <LinkContainer to="/cart">
               <Nav.Link>
                 <Badge pill bg="danger">
-                  17
+                  3
                 </Badge>
                 <BsCart />
                 <span className="ms-1">Cart</span>

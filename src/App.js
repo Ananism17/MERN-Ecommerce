@@ -37,6 +37,7 @@ import AdminOrderDetailsPage from "./pages/admin/AdminOrderDetailsPage";
 import AdminChatsPage from "./pages/admin/AdminChatsPage";
 import AdminAnalyticsPage from "./pages/admin/AdminAnalyticsPage";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -48,7 +49,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/product-list" element={<ProductListPage />} />
           <Route path="/product-details" element={<ProductDetailsPage />} />
-          <Route path="/product-details/:id" element={<ProductDetailsPage />} />
+          {/* <Route path="/product-details/:id" element={<ProductDetailsPage />} /> */}
           <Route path="/cart" element={<CartPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
